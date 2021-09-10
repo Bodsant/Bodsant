@@ -1,0 +1,43 @@
+
+<div class="jumbotron">
+    <html>
+    <head>
+        <title> laundry nira</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            .box {
+                float: left;
+                width: 33.33%;
+                padding: 50px;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body style="background-color:powderblue;">
+        <h1 style="color:mediumvioletred;background-color:powderblue;border:3px solid violet;padding: 30px;">NIRA LAUNDRY</h1>
+        <p>CSS Layout - Float </p>
+
+        <div class="clearfix">
+            <div class="box" style="background-color:DeepSkyBlue">
+                <a href="https://www.google.com"><button;"style:'background-color:DeepSkyBlue'">Incoming Order</button></a>
+            </div>
+            <div class="box" style="background-color:Yellow">
+                <a href="https://www.google.com"><button;"style:'background-color:Yellow'">Proses</button></a>
+</div>
+            <div class="box" style="background-color:LawnGreen">
+                <a href="https://www.google.com"><button;"style:'background-color:lawngreen'">Finished</button></a>
+</div>
+        </div>
+
+        <p><strong>Note:</strong> AKhirnya ketemu 2 malam gue mantengin layar.</p>
+
+    </body>
+</html>
